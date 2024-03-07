@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+  font-family: "inter", sans-serif;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.card {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.img__perfil {
+  border-radius: 50%;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+.content__description {
+  text-align: justify;
+}
+.content__skills {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.content__skills:hover {
+  color: darkblue;
+}
+
+.card__footer h2 {
+  font-size: 1.3rem;
+  color: darkslateblue;
+}
+.card__footer p {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+}
+.bi {
+  font-size: 1.2rem;
+  color: #121212;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+.bi-instagram:hover {
+  color: #e1306c;
+}
+
+.bi-twitter:hover {
+  color: #1da1f2;
+}
+.bi-linkedin:hover {
+  color: #0e76a8;
+}
+.bi-github:hover {
+  color: #211f1f;
+}
